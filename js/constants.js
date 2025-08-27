@@ -18,6 +18,7 @@ export function modeChanger(value){
     elHands.forEach((el) => {
         const hand = el.alt;
         if(hand === rock){
+            
            if(value === "hard"){
             el.parentElement.classList.remove("col-start-1", "col-end-3");
            }else{
